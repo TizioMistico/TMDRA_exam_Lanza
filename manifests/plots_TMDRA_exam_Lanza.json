@@ -1,0 +1,435 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://TizioMistico.github.io/TMDRA_exam_Lanza/manifests/plots_TMDRA_exam_Lanza.json",
+  "@type" : "sc:Manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A Manifest that holds the plots of the neural network and their performances that used for my project Toxic Comment Classification task",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Fabio Lanza",
+  "sequences" : [ {
+    "@id" : "http://2f5eb587-9f92-4713-a266-7c987c029667",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "canvases" : [ {
+      "@id" : "http://377ba54d-5c2b-4bdd-8129-302141c7066d",
+      "@type" : "sc:Canvas",
+      "label" : "DenseNet (Fully Connected Network)",
+      "height" : 1069,
+      "width" : 431,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0944a764-fcfe-47eb-9b01-554fc04ac223",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/DenseNet/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/DenseNet",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1069,
+          "width" : 431
+        },
+        "on" : "http://377ba54d-5c2b-4bdd-8129-302141c7066d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://d40225f9-3ea1-4bb3-ab60-ddaebddc68f0",
+      "@type" : "sc:Canvas",
+      "label" : "ConvNet (Convolutional Neural Network)",
+      "height" : 959,
+      "width" : 431,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6e16199d-54c3-42f3-9048-21fd81659688",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/ConvNet/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/ConvNet",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 959,
+          "width" : 431
+        },
+        "on" : "http://d40225f9-3ea1-4bb3-ab60-ddaebddc68f0"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://dc7e54ec-0028-4994-88b9-1f4d1085a35e",
+      "@type" : "sc:Canvas",
+      "label" : "LSTM #1",
+      "height" : 848,
+      "width" : 431,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c7bd2591-8072-41c3-beac-2e36a7e822ed",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkI/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkI",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 848,
+          "width" : 431
+        },
+        "on" : "http://dc7e54ec-0028-4994-88b9-1f4d1085a35e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://fe3d5e16-0e00-4e2c-99e8-2c12ec0d1ba1",
+      "@type" : "sc:Canvas",
+      "label" : "LSTM #2 (LSTM embedded in a \"convolutional sandwich\")",
+      "height" : 1180,
+      "width" : 421,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c21c4d07-89e5-4877-8cc2-7c1d61cd1bf2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkII/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkII",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1180,
+          "width" : 421
+        },
+        "on" : "http://fe3d5e16-0e00-4e2c-99e8-2c12ec0d1ba1"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://977ae3f2-ff4b-447a-8bdd-8f7dd44306b5",
+      "@type" : "sc:Canvas",
+      "label" : "LSTM #3 (Bidirectional)",
+      "height" : 1069,
+      "width" : 421,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e0093aa7-f4f8-46de-934a-78e2764a3719",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkIII/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkIII",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1069,
+          "width" : 421
+        },
+        "on" : "http://977ae3f2-ff4b-447a-8bdd-8f7dd44306b5"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://6a195113-177a-4a73-b418-6a63bf35bb9a",
+      "@type" : "sc:Canvas",
+      "label" : "GRU #1",
+      "height" : 848,
+      "width" : 421,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3f8b0494-d41a-45c2-90ce-1bb508a87d2a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/GRU_mkI/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/GRU_mkI",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 848,
+          "width" : 421
+        },
+        "on" : "http://6a195113-177a-4a73-b418-6a63bf35bb9a"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://89fa1043-1eb8-48f5-a92f-d1bb0dcd9ad1",
+      "@type" : "sc:Canvas",
+      "label" : "GRU #2 (GRU embedded in a \"convolutional sandwich\")",
+      "height" : 1180,
+      "width" : 421,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f6a98990-012b-4f9b-bba6-33ed4a1f40d1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/GRU_mkII/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/GRU_mkII",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1180,
+          "width" : 421
+        },
+        "on" : "http://89fa1043-1eb8-48f5-a92f-d1bb0dcd9ad1"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://34b15a2d-b960-45d8-8369-a29a148ef7ad",
+      "@type" : "sc:Canvas",
+      "label" : "GRU #3 (Bidirectional)",
+      "height" : 1069,
+      "width" : 421,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8dc1cddc-627d-4d5d-aa88-be4b5b66f580",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/GRU_mkIII/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/GRU_mkIII",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1069,
+          "width" : 421
+        },
+        "on" : "http://34b15a2d-b960-45d8-8369-a29a148ef7ad"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://3a150b84-bcac-4130-b2e0-079402d1e501",
+      "@type" : "sc:Canvas",
+      "label" : "F1 Scores of DenseNet",
+      "height" : 517,
+      "width" : 567,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://965e4d8b-70c8-4e4a-bbc2-b507b5b499fd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_dense/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_dense",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 517,
+          "width" : 567
+        },
+        "on" : "http://3a150b84-bcac-4130-b2e0-079402d1e501"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9c5e7921-f576-4e46-9c41-2463c25ecfe8",
+      "@type" : "sc:Canvas",
+      "label" : "F1 Scores of ConvNet",
+      "height" : 517,
+      "width" : 567,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://02123a47-fddd-4531-be02-57f3bfc0af43",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_conv/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_conv",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 517,
+          "width" : 567
+        },
+        "on" : "http://9c5e7921-f576-4e46-9c41-2463c25ecfe8"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9d453fdf-e307-41dc-abfe-7c50a067a21c",
+      "@type" : "sc:Canvas",
+      "label" : "F1 Scores of LSTM #1",
+      "height" : 517,
+      "width" : 567,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5fa83527-5bc8-48d4-93b7-396d0477f1b8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_lstm1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_lstm1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 517,
+          "width" : 567
+        },
+        "on" : "http://9d453fdf-e307-41dc-abfe-7c50a067a21c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://e12d9ae7-be41-457a-a571-7773065b5475",
+      "@type" : "sc:Canvas",
+      "label" : "F1 Scores of LSTM #2",
+      "height" : 517,
+      "width" : 567,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ced453a9-3d9c-4a5e-b474-6407a6b1179e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_lstm2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_lstm2",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 517,
+          "width" : 567
+        },
+        "on" : "http://e12d9ae7-be41-457a-a571-7773065b5475"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9d989670-dbc5-480a-b4e7-2e0dbf320fef",
+      "@type" : "sc:Canvas",
+      "label" : "F1 Scores of LSTM #3",
+      "height" : 517,
+      "width" : 567,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://911d37e8-ee29-4960-b4b1-bf7a0c5070e7",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_lstm3/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_lstm3",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 517,
+          "width" : 567
+        },
+        "on" : "http://9d989670-dbc5-480a-b4e7-2e0dbf320fef"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://69e7f2db-8206-44a1-a5e1-355f0db77a47",
+      "@type" : "sc:Canvas",
+      "label" : "F1 Scores of GRU #1",
+      "height" : 517,
+      "width" : 567,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://83235c16-943f-4b33-ac61-32e59013162a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_gru1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_gru1",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 517,
+          "width" : 567
+        },
+        "on" : "http://69e7f2db-8206-44a1-a5e1-355f0db77a47"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9c47d80e-663f-46eb-bc23-42943bb14de5",
+      "@type" : "sc:Canvas",
+      "label" : "F1 Scores of GRU #2",
+      "height" : 517,
+      "width" : 567,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://aa7bfe6d-d77c-4f91-8e1a-ce04f52a90fa",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_gru2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_gru2",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 517,
+          "width" : 567
+        },
+        "on" : "http://9c47d80e-663f-46eb-bc23-42943bb14de5"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://5f822171-0ac4-433c-a04c-cda0feff8a4f",
+      "@type" : "sc:Canvas",
+      "label" : "F1 Scores of GRU #3",
+      "height" : 517,
+      "width" : 567,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://714d0ea6-857a-4d42-a24c-c43d3a321e5d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_gru3/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_gru3",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 517,
+          "width" : 567
+        },
+        "on" : "http://5f822171-0ac4-433c-a04c-cda0feff8a4f"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
