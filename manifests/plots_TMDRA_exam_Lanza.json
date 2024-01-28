@@ -27,7 +27,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/DenseNet/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/DenseNet",
@@ -53,7 +53,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/ConvNet/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/ConvNet",
@@ -79,7 +79,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkI/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkI",
@@ -105,7 +105,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkII/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkII",
@@ -131,7 +131,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkIII/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkIII",
@@ -157,7 +157,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/GRU_mkI/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/GRU_mkI",
@@ -183,7 +183,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/GRU_mkII/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/GRU_mkII",
@@ -209,7 +209,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/GRU_mkIII/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/GRU_mkIII",
@@ -235,7 +235,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_dense/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_dense",
@@ -261,7 +261,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_conv/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_conv",
@@ -287,7 +287,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_lstm1/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_lstm1",
@@ -313,7 +313,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_lstm2/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_lstm2",
@@ -339,7 +339,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_lstm3/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_lstm3",
@@ -365,7 +365,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_gru1/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_gru1",
@@ -391,7 +391,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_gru2/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_gru2",
@@ -417,7 +417,7 @@
         "resource" : {
           "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_gru3/full/full/0/default.jpg",
           "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
+          "format" : "image/png",
           "service" : {
             "@context" : "http://iiif.io/api/image/2/context.json",
             "@id" : "https://tiziomistico.github.io/TMDRA_exam_Lanza/images/Score_gru3",
