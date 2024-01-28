@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 14,
+    "height" : 27
+  }, {
+    "width" : 27,
+    "height" : 53
+  }, {
+    "width" : 54,
+    "height" : 106
+  }, {
+    "width" : 108,
+    "height" : 212
+  }, {
+    "width" : 216,
+    "height" : 424
+  }, {
+    "width" : 431,
+    "height" : 848
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 431,
+  "@id" : "https://TizioMistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkI",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 848
+}
