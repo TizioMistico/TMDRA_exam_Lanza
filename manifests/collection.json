@@ -1,0 +1,13 @@
+{
+  "id" : "https://TizioMistico.github.io/TMDRA_exam_Lanza/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in TizioMistico/TMDRA_exam_Lanza project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://TizioMistico.github.io/TMDRA_exam_Lanza/manifests/plots_TMDRA_exam_Lanza.json",
+    "label" : null
+  } ]
+}
