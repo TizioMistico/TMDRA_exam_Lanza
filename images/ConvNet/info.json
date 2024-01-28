@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 14,
+    "height" : 30
+  }, {
+    "width" : 27,
+    "height" : 60
+  }, {
+    "width" : 54,
+    "height" : 120
+  }, {
+    "width" : 108,
+    "height" : 240
+  }, {
+    "width" : 216,
+    "height" : 480
+  }, {
+    "width" : 431,
+    "height" : 959
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 431,
+  "@id" : "https://TizioMistico.github.io/TMDRA_exam_Lanza/images/ConvNet",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 959
+}
