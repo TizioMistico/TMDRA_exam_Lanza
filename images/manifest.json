@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 421,
+    "id" : "https://TizioMistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkII/canvas/",
+    "label" : {
+      "none" : [ "LSTM_mkII" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://TizioMistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkII/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://TizioMistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkII/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 14,
+              "height" : 37
+            }, {
+              "width" : 27,
+              "height" : 74
+            }, {
+              "width" : 53,
+              "height" : 148
+            }, {
+              "width" : 106,
+              "height" : 295
+            }, {
+              "width" : 211,
+              "height" : 590
+            }, {
+              "width" : 421,
+              "height" : 1180
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 421,
+            "@id" : "https://TizioMistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkII",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1180
+          } ],
+          "format" : "image/jpeg",
+          "width" : 421,
+          "id" : "https://TizioMistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkII/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1180
+        },
+        "target" : "https://TizioMistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkII/canvas/"
+      } ]
+    } ],
+    "height" : 1180
+  }, {
     "width" : 431,
     "id" : "https://TizioMistico.github.io/TMDRA_exam_Lanza/images/LSTM_mkI/canvas/",
     "label" : {
