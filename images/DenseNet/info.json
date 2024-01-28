@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 14,
+    "height" : 34
+  }, {
+    "width" : 27,
+    "height" : 67
+  }, {
+    "width" : 54,
+    "height" : 134
+  }, {
+    "width" : 108,
+    "height" : 268
+  }, {
+    "width" : 216,
+    "height" : 535
+  }, {
+    "width" : 431,
+    "height" : 1069
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 431,
+  "@id" : "https://TizioMistico.github.io/TMDRA_exam_Lanza/images/DenseNet",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1069
+}
